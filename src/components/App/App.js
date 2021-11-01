@@ -27,11 +27,13 @@ const Main = styled.main`
   }
 
   @media ${QUERIES.tabletAndSmaller} {
-    background: red;
+    background: pink;
+    padding: 48px 32px;
   }
 
   @media ${QUERIES.phoneAndSmaller} {
     background: coral;
+    padding: 48px 16px;
   }
 `;
 
